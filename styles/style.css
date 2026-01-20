@@ -1,0 +1,94 @@
+/* google fonts linking css */
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* GLobal css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    background-color: #1A0B2E;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ul{
+    list-style-type: none;
+}
+
+/* Custom css */
+
+/* navbar */
+.container{
+    width: 90%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0rem;
+}
+
+/* logo */
+.logo{
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+/* Gradient Color Background */
+/* to right, #f7e540 15%, #ed07bd 50%, #9700f3 88% */
+.logo span{
+    background: linear-gradient(15deg, #f7e540 20%, #ed07bd 45%, #9700f3 88%);
+    text-decoration: transparent ;
+    background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+
+/* Nav Links */
+
+.nav-links ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links ul li{
+    padding: 0 2rem;
+}
+.nav-links ul li:hover{
+    font-weight: 600;
+    /* text-decoration: underline; */
+    background: linear-gradient(40deg, #f7e540 35%, #ed07bd 60%, #9700f3 88%);
+    text-decoration: transparent ;
+    background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+
+.Subscribe-btn{
+    padding: 1rem 2.5rem;
+    border: none;
+    border-radius: 2rem;
+    background: linear-gradient(40deg, #f7e540 15%, #ed07bd 50%, #9700f3 88%);
+}
+.Subscribe-btn:hover{
+    padding: 1rem 2.5rem;
+    border: 0.1rem solid #f7e540;
+    border-radius: 2rem;
+    background: linear-gradient(40deg, #f7e540 15%, #ed07bd 50%, #9700f3 88%);
+    text-decoration: transparent ;
+    background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
