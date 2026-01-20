@@ -3,20 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tailwind + Custom CSS</title>
+    <title>TechWave</title>
 
-    <!-- Using both Tailwind classes and Custom CSS class -->
+    <!-- Using both Tailwind CDN and Custom CSS file -->
     
     <!-- 1. Tailwind CSS CDN Linking-->
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- 2. Your Custom CSS Linking-->
     <link rel="stylesheet" href="./styles/style.css">
+    <!-- font awesome linking -->
+     <link rel="stylesheet" href="./styles/font-awesome/css/font-awesome.min.css">
     
 </head>
-<body>
+<body class="text-white">
+    <!-- Header Section -->
+    <header class="bg-[#1A0B2E]">
+        <div class="container m-0 m-auto">
+            <nav class="flex justify-between items-center p-7">
+                <!-- nav logo -->
+                <div class="nav-logo">
+                    <a href="index.html">
+                        <h4 class="font-extrabold text-3xl">Tech<span class="bg-gradient-to-t from-yellow-500 from-15% via-pink-500 via-40% to-violet-500 to-60% text-transparent bg-clip-text">Wave</span></h4>
+                    </a>
+                </div>
+                <!-- nav Links -->
+                <div class="nav-links">
+                    <ul class="flex">
+                        <li class="mx-4 px-4 hover:text-yellow-400 hover:underline hover:font-bold"><a href="#">About</a></li>
+                        <li class="mx-4 px-4 hover:text-yellow-400 hover:underline hover:font-bold"><a href="#">Episodes</a></li>
+                        <li class="mx-4 px-4 hover:text-yellow-400 hover:underline hover:font-bold"><a href="#">Host</a></li>
+                    </ul>
+                </div>
+                <!-- nav btn -->
+                <div class="nav-btn">
+                    <a href="#">
+                        <!-- bg-gradient-to-tr from-yellow-400 from-15% via-pink-400 via-50% to-violet-700 to-88%  -->
+                        <p class="bg-gradient-to-tr from-yellow-400 from-15% via-pink-400 via-50% to-violet-700 to-88% px-9 py-3 rounded-4xl hover:font-bold">Subscribe <i class="fa fa-long-arrow-right" aria-hidden="true"></i></p>
+                    </a>
+                </div>
+            </nav>
+        </div>
+
+    </header>
     
-
-
 
 </body>
 </html>

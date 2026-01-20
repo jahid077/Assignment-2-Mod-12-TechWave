@@ -1,3 +1,8 @@
+Live Server Link : https://jahid077.github.io/Assignment-2-Mod-12-TechWave/
+
+Git Repo Link : https://github.com/jahid077/Assignment-2-Mod-12-TechWave
+
+
 ## 🌟 WELCOME TO ( সহজ সরল সিম্পল ) ASSIGNMENT-002 😎
 
 ---
