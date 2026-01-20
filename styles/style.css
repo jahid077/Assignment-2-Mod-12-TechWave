@@ -144,3 +144,36 @@ ul{
     color: #fff;
     border-color: #fff;
 }
+
+/* Podcast section */
+
+.podcast{
+    margin: 6rem 0rem;
+    text-align: center;
+}
+
+.podcast .container h2{
+    font-size: 3rem;
+    padding: 2rem 0rem;
+}
+
+.podcast .container hr{
+    opacity: 0.1;
+}
+
+.podcast .container p{
+    margin-bottom: 4rem;
+}
+
+.ratings{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ratings .rate h3{
+    font-size: 2rem;
+    padding: 1rem 0rem;
+    color: #00ff88;
+}
