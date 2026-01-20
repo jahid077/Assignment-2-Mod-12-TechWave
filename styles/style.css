@@ -152,9 +152,10 @@ ul{
     text-align: center;
 }
 
-.podcast .container h2{
+.container h2{
     font-size: 3rem;
     padding: 2rem 0rem;
+    text-align: center;
 }
 
 .podcast .container hr{
@@ -176,4 +177,61 @@ ul{
     font-size: 2rem;
     padding: 1rem 0rem;
     color: #00ff88;
+}
+
+/* Why Choose TechWave */
+.Why-Choose-TechWav .container{
+    background-color: #230e3d;
+}
+.container .grid-layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr;
+    gap: 1rem;
+    padding: 2rem;
+    grid-template-areas: 
+    "a b b"
+    "a c c"
+    "d d e";
+}
+.a{
+    grid-area: a;
+    padding: 4rem 2rem;
+}
+.a h3{
+    font-size: 1.5rem;
+    margin: 1rem 0rem;
+}
+.b{
+    grid-area: b;
+    padding: 2rem 4rem;
+}
+.b h3{
+    font-size: 1.5rem;
+    margin: 1rem 0rem;
+}
+.c{
+    grid-area: c;
+    padding: 2rem 4rem;
+}
+.c h3{
+    font-size: 1.5rem;
+    margin: 1rem 0rem;
+}
+.d{
+    grid-area: d;
+    padding: 2rem 4rem;
+}
+.d h3{
+    font-size: 1.5rem;
+    margin: 1rem 0rem;
+}
+.e{
+    grid-area: e;
+    padding: 4rem 2rem;
+}
+
+.container .grid-layout .box{
+    background-color: #2a0f4d;
+    border-radius: 2rem;
 }
