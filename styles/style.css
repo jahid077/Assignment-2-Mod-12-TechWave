@@ -20,6 +20,19 @@ body{
     color: #fff;
 }
 
+ h2{
+    font-size: 3rem;
+    padding: 2rem 0rem;
+    text-align: center;
+}
+
+h3{
+    font-size: 2rem;
+    padding: 1rem 0rem;
+    color: #fff;
+    
+}
+
 a{
     text-decoration: none;
     color: #fff;
@@ -27,6 +40,8 @@ a{
 ul{
     list-style-type: none;
 }
+
+
 
 /* Custom css */
 
@@ -235,4 +250,91 @@ ul{
 .container .grid-layout .box{
     background-color: #2a0f4d;
     border-radius: 2rem;
+}
+
+/* Featured Episodes */
+.Featured{
+    margin: 8rem 0rem;
+}
+.container .video-3box{
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.container .video-3box .box{
+    width: 370px;
+    background-color: #2a0f4d;
+    /* padding: 2rem 1rem; */
+    border-radius: 2rem;
+}
+.container .video-3box .box iframe{
+    max-width: 100%;
+    /* margin-top: 2rem; */
+    border-radius: 2rem;
+    box-shadow: 0 6px 20px 0 rgba(198, 197, 197, 0.19);
+}
+
+.video-3box .box h4{
+    font-size: 1rem;
+    margin: 1rem 0rem;
+}
+.video-3box p{
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin: 1rem 0rem;
+}
+
+.video-3box .box .content-box{
+    padding: 0rem 1rem;
+}
+
+.box .content-box small{
+    color: #00ff88;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+/* Meet the Host */
+.meet{
+    margin: 8rem 0rem;
+}
+.meet .container .main-box{
+    background-color: #2a0f4d;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+}
+
+.img-box img{
+    border-radius: 50%;
+    box-shadow: 0 6px 20px 0 rgba(198, 197, 197, 0.19);
+}
+
+.contents h4{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.contents p{
+    margin-bottom: 1rem;
+}
+
+.contents .icons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.contents .icons img{
+    padding: 0.7rem;
+    border: 1px solid #f7e540;
+    border-radius: 50%;
+}
+
+.contents .icons img:hover{
+    background-color: #fff;
 }
